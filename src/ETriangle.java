@@ -8,6 +8,7 @@ public class ETriangle extends Shape
         super("ETriangle");
         this.side = side;
     }
+    
     @Override
     public double getArea(){
         return Math.sqrt(3) * 0.25 * (side * side);
