@@ -1,0 +1,22 @@
+//Alexander Cox
+//Tuesday, October 2, 2018
+
+public class Runner {
+
+    public static void main (String[] args) {
+
+        Shape shape1 = new Rectangle (10, 5);
+        Shape shape2 = new ETrinagle (5);
+        Shape shape3 = new Circle(10);
+        Shape shape4 = new Hexagon(5);
+
+        Shape[] shapes = {shape1, shape2, shape3, shape4};
+
+        for (Shape cur : shapes) {
+
+            System.out.prinln(cur);
+            System.out.println("My area is: " + cur.getArea());
+            System.out.println("My Perimeter is: " + cur.getPerimeter());
+        }
+    }
+}
