@@ -14,7 +14,7 @@ public class Hexagon extends Shape {
     @Override
     public double getArea() {
 
-        return ((3 * (3 ^ (1/2)) * (side ^ 2)) / 2);
+        return ((3 * Math.sqrt(3) * Math.pow(side, 2)) / 2);
     }
 
     @Override
